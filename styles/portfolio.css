@@ -1,6 +1,6 @@
 :root {
-  --branding-colour: #6c63ff;
-  --secondary-colour: #272142;;
+  --branding-colour: #975a5e;
+  --secondary-colour: #453953;;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family:"Poppins", sans-serif;
 }
@@ -56,6 +56,13 @@ font-family: var(--default-font-family)}
   maring: 0;
 }
 
+.profile { 
+padding: 10px;
+border: 5px double #975a5e;;
+border-radius: 20px;
+
+}
+
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -71,7 +78,7 @@ font-family: var(--default-font-family)}
   padding: 15px 30px;
 }
 .content-container{
-      padding: 160px 20px;
+      padding: 60px 20px;
 }
 .content{margin:30px;}
 
@@ -98,11 +105,11 @@ font-family: var(--default-font-family)}
       .content{text-align: center;
     padding: 0;}
 
-h4{font-size: 18px;}
+h3{font-size: 18px;}
 .btn{font-size: 18px;}
   }
 
-  .profile { border-radius: 5px;}
+
 
   .logo{max-width: 80px;}
 
@@ -168,4 +175,4 @@ s
 footer .social-links a:hover{color: white;
 background: var(--branding-colour);}
 
-h4{font-size: 48px;}
+h3 {font-size: 48px;}
