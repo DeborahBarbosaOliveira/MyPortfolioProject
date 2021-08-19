@@ -14,7 +14,7 @@ h5 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
-
+.pamoja-picture {padding: 40px 20px;}
 h1 {
   font-size: 96px;
   font-weight: bold;
@@ -22,19 +22,21 @@ h1 {
 }
 
 h2{font-size: 64px;}
-p {
-    font-weight: normal;
+
+.hero p {
+ font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
-.content h1{
+
+.about-section h1{
     font-size: 64px;
     line-height: 80px;}
 
-.contenth2{font-size: 18px;
+.about-section h2{font-size: 18px;
 font-family: var(--default-font-family)}
 
-.content h3{
+.about-section h3{
     font-size: 24px;
     line-height: 1.5;
     margin: 20px 0 0;
@@ -44,14 +46,20 @@ font-family: var(--default-font-family)}
     font-size: 14px;
     
 }
+
+.about-section{padding: 80px 20px;}
+
+.about-section-content{
+  margin: 30px;
+}
 .hero {
   background: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 16px;
   font-weight: bold;
   maring: 0;
 }
@@ -79,7 +87,11 @@ border-radius: 20px;
 }
 .content-container{
       padding: 60px 20px;
+       text-align: center;
 }
+
+.container { text-align: center;}
+
 .content{margin:30px;}
 
 .btn-branding-outline{
@@ -89,7 +101,7 @@ border-radius: 20px;
   padding: 15px 30px;
   border: 1px solid var(--branding-colour);}
 
-  .project-description{padding: 120px 60px}
+  .project-description{padding: 60px 20px}
 
   @media(max-width:960px) {
       .project-description{
@@ -105,8 +117,12 @@ border-radius: 20px;
       .content{text-align: center;
     padding: 0;}
 
-h3{font-size: 18px;}
-.btn{font-size: 18px;}
+      h3{font-size: 18px;}
+      
+    .btn{font-size: 18px;}
+
+    .about-section{text-align: center;
+    padding: 0;}
   }
 
 
