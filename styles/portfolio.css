@@ -33,7 +33,15 @@ h2{font-size: 64px;}
     font-size: 54px;
     line-height: 80px;}
 
-
+ .fixed-top {
+background: #f9f7fe;
+padding: 10px 100px;
+border-radius: 10px;
+border: 1px ridge rgba(136, 151, 158, 0.2);
+border-radius: 7px;
+} 
+.certificates{padding: 30px 30px;
+margin:0}
 
 .about-section h2{font-size: 18px;
 font-family: var(--default-font-family)}
@@ -129,13 +137,7 @@ border-radius: 20px;
 
   .logo{max-width: 80px;}
 
- .fixed-top {
-  background: #f9f7fe;
-padding: 30px 100px;
-border-radius: 10px;
-} 
-.certificates{padding: 30px 30px;
-margin:0}
+
 
   nav li{
     display: inline;
