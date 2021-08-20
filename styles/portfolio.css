@@ -122,6 +122,13 @@ border-radius: 20px;
         line-height: 1.5;}
       h2{font-size: 44px;}
 
+ .fixed-top {
+
+padding: 0;
+
+
+} 
+
       .hero{80px 20px}
 
       .content{text-align: center;
