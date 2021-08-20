@@ -30,8 +30,10 @@ h2{font-size: 64px;}
 }
 
 .about-section h1{
-    font-size: 64px;
+    font-size: 54px;
     line-height: 80px;}
+
+.profile-pic {  padding: 100px 20px;;}
 
 .about-section h2{font-size: 18px;
 font-family: var(--default-font-family)}
