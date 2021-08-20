@@ -33,7 +33,7 @@ h2{font-size: 64px;}
     font-size: 54px;
     line-height: 80px;}
 
-.profile-pic {  padding: 100px 20px;;}
+
 
 .about-section h2{font-size: 18px;
 font-family: var(--default-font-family)}
@@ -127,9 +127,15 @@ border-radius: 20px;
     padding: 0;}
   }
 
-
-
   .logo{max-width: 80px;}
+
+ .fixed-top {
+  background: #f9f7fe;
+padding: 30px 100px;
+border-radius: 10px;
+} 
+.certificates{padding: 30px 30px;
+margin:0}
 
   nav li{
     display: inline;
@@ -142,16 +148,12 @@ nav ul{
     margin: 0;
 }
 
-nav{
-    padding: 20px 0;
-}
 
 nav a{
 text-decoration: none;
 color: #272142;
-transition: all 100ms ease-in-out;
+transition: all 100ms ease-in-out;}
 
-}
 nav a:hover, nav li.active a{
     color: var(--branding-colour)
 }
